@@ -1,17 +1,18 @@
 import React from 'react';
 
-// functional component
-// const About = () => {
-//     const name = 'James'
-//     return (
-//         <h1> Hello {name} </h1>
-//     )
-// }
-
+// functional component - arrow function
 const About = () => {
     const name = 'James'
-    return React.createElement('h1', null, 'This is generated with createElement')
+    return (
+        <h1> Hello {name} </h1>
+    )
 }
+
+// React.createElement('type of element', state, 'what's inside the element')
+// const About = () => {
+//     const name = 'James'
+//     return React.createElement('h1', null, 'This is generated with createElement')
+// }
 
 
 
