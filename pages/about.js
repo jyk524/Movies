@@ -1,11 +1,18 @@
+import React from 'react';
 
 // functional component
+// const About = () => {
+//     const name = 'James'
+//     return (
+//         <h1> Hello {name} </h1>
+//     )
+// }
+
 const About = () => {
-    const message = 'Hello World'
-    return (
-        <h1> {message} </h1>
-    )
+    const name = 'James'
+    return React.createElement('h1', null, 'This is generated with createElement')
 }
+
 
 
 // functional component - normal function
