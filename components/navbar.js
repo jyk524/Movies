@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Start Bootstrap
+          Bootstrap
         </a>
         <button
           className="navbar-toggler"
