@@ -6,4 +6,4 @@ function carousel() {
   return <div></div>;
 }
 
-export default carousel;
+export default Carousel;
